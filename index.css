@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Annie Use Your Telescope);
+html {
+    -webkit-font-smoothing: antialiased;
+    font-size: 100%
+}
+ul {
+    margin: 3em auto;
+    margin-top: 12%;
+    background-color: wheat;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 3px 12px, inset rgba(0, 0, 0, 0.3) 0 0 45px;
+    border-radius: 1em;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+}
+ul li:first-child {
+    background-color: #602040;
+    color: wheat;
+    border-radius: 1em 1em 0 0;
+    padding: 1em 0;
+    letter-spacing: 0.2em;
+}
+ul li:last-child {
+    background-color: #602040;
+    color: wheat;
+    border-radius: 0 0 1em 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 1em;
+}
+ul li:last-child a {
+    text-decoration: none;
+    color: wheat;
+}
+ul li span {
+    font-size: 2.4em;
+    display: block;
+    letter-spacing: .3em;
+    font-weight: 600;
+}
+
+ul li.name {
+    font-family: 'Indie Flower', cursive;
+    color: #602040;
+    font-size: 2em;
+    padding: .4em 0;
+    -webkit-transform: rotate(-8deg);
+}
+ul li.name:first-letter {
+    font-size: 1.4em;
+}
+
